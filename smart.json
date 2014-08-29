@@ -1,9 +1,0 @@
-{
-  "name": "toastr",
-  "description": "JavaScript library for Gnome / Growl type non-blocking notifications.",
-  "homepage": "https://github.com/chrismbeckett/meteor-toastr",
-  "author": "Chris Beckett (https://github.com/chrismbeckett)",
-  "version": "0.1.0",
-  "git": "https://github.com/chrismbeckett/meteor-toastr.git",
-  "packages": {}
-}

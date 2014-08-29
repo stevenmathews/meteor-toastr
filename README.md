@@ -1,11 +1,37 @@
-# toastr
+# Meteor toastr
 
-[toastr](http://codeseven.github.io/toastr/) JavaScript library for Gnome / Growl type non-blocking notifications, packaged for [Meteor](http://meteor.com).
+Gnome / Growl type non-blocking notifications.
 
-## Installation
+## Usage
 
-With [Meteorite](https://github.com/oortcloud/meteorite) installed:
+Use toastr to display notifications for info, success, warning and errors.
 
-```sh
-$ mrt add toastr
+```js
+  // Display a warning toast, with no title
+  toastr.warning('My name is Inigo Montoya. You killed my father, prepare to die!')
+
+  // Display a success toast, with a title
+  toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+
+  // Display an error toast, with a title
+  toastr.error('I do not think that word means what you think it means.', 'Inconceivable!')
+
+  // Clears the current list of toasts
+  toastr.clear()
 ```
+
+## Demo
+
+To explore additional options, try the [demo](http://codeseven.github.io/toastr/demo.html).
+
+## Attribution
+
+This package utilizes the [toastr](http://www.toastrjs.com/) library
+authored by [John Papa](http://twitter.com/John_Papa) and
+[Hans Fjällemark](http://twitter.com/hfjallemark).
+
+## License
+
+[The MIT License (MIT)](http://www.opensource.org/licenses/mit-license.php)
+<br>
+Copyright (c) 2013 [Chris Beckett](https://github.com/chrismbeckett)
