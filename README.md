@@ -1,4 +1,4 @@
-# Meteor toastr
+# Meteor toastr [![Build Status](https://travis-ci.org/chrismbeckett/meteor-toastr.svg)](https://travis-ci.org/chrismbeckett/meteor-toastr)
 
 Gnome / Growl type non-blocking notifications.
 
