@@ -1,5 +1,8 @@
 # History
 
+## v1.0.2
+* Added unit tests and Travis CI integration.
+
 ## v1.0.1
 * Fixed error with package file.
 
