@@ -2,6 +2,10 @@
 
 Gnome / Growl type non-blocking notifications.
 
+## Current Version
+
+v1.0.1
+
 ## Usage
 
 Use toastr to display notifications for info, success, warning and errors.
