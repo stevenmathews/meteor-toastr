@@ -1,5 +1,9 @@
 # History
 
+## v2.1.0
+* Integrated pull-request to update to Toastr v2.1 release.
+* Synchronized versioning with Toastr using wrapped package support added to Meteor.
+
 ## v1.0.2
 * Added unit tests and Travis CI integration.
 

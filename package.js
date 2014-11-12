@@ -1,13 +1,13 @@
 Package.describe({
   "name": "chrismbeckett:toastr",
   "summary": "Gnome / Growl type non-blocking notifications",
-  "version": "1.0.2",
+  "version": "2.1.0",
   "git": "https://github.com/chrismbeckett/meteor-toastr"
 });
 
 Package.onUse(function(api) {
 
-  api.versionsFrom("METEOR@0.9.0");
+  api.versionsFrom("METEOR@0.9.4");
   api.use("jquery", ["client"]);
 
   api.addFiles("lib/toastr.js", ["client"]);
@@ -19,6 +19,6 @@ Package.onTest(function(api) {
 
   api.use("tinytest");
   api.use("chrismbeckett:toastr");
-  api.addFiles("test/client/toastr.js", ["client"]);
+  api.addFiles("test/client/toastr_test.js", ["client"]);
 
 });

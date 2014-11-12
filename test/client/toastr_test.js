@@ -1,6 +1,5 @@
 // test that the toastr global object exists
 Tinytest.add("toastr - exists", function(test) {
-  if ( toastr)
   test.instanceOf(toastr, Object);
 });
 

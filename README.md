@@ -1,10 +1,11 @@
-# Meteor toastr [![Build Status](https://travis-ci.org/chrismbeckett/meteor-toastr.svg)](https://travis-ci.org/chrismbeckett/meteor-toastr)
+# Meteor toastr
 
 Gnome / Growl type non-blocking notifications.
 
 ## Current Version
 
-**v1.0.2**
+**2.1.0**
+[![Build Status](https://travis-ci.org/chrismbeckett/meteor-toastr.svg)](https://travis-ci.org/chrismbeckett/meteor-toastr)
 
 ## Usage
 
@@ -12,13 +13,13 @@ Use toastr to display notifications for info, success, warning and errors.
 
 ```js
   // Display a warning toast, with no title
-  toastr.warning('My name is Inigo Montoya. You killed my father, prepare to die!')
+  toastr.warning(msg);
 
   // Display a success toast, with a title
-  toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+  toastr.success(msg, title);
 
   // Display an error toast, with a title
-  toastr.error('I do not think that word means what you think it means.', 'Inconceivable!')
+  toastr.error(msg, title);
 
   // Clears the current list of toasts
   toastr.clear()
