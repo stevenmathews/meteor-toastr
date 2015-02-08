@@ -7,6 +7,7 @@ Gnome / Growl type non-blocking notifications.
 **2.1.0**
 [![Build Status](https://travis-ci.org/chrismbeckett/meteor-toastr.svg)](https://travis-ci.org/chrismbeckett/meteor-toastr)
 
+
 ## Usage
 
 Use toastr to display notifications for info, success, warning and errors.
@@ -22,8 +23,16 @@ Use toastr to display notifications for info, success, warning and errors.
   toastr.error(msg, title);
 
   // Clears the current list of toasts
-  toastr.clear()
+##  toastr.clear()
 ```
+## How to Install
+
+```bash
+  meteor add chrismbeckett:toastr
+```
+
+
+
 
 ## Demo
 
