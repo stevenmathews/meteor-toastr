@@ -4,7 +4,7 @@ Gnome / Growl type non-blocking notifications.
 
 ## Current Version
 
-**2.1.0**
+**2.1.2**
 [![Build Status](https://travis-ci.org/chrismbeckett/meteor-toastr.svg)](https://travis-ci.org/chrismbeckett/meteor-toastr)
 
 

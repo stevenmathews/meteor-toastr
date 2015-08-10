@@ -1,7 +1,7 @@
 Package.describe({
   "name": "chrismbeckett:toastr",
   "summary": "Gnome / Growl type non-blocking notifications",
-  "version": "2.1.2",
+  "version": "2.1.2_1",
   "git": "https://github.com/chrismbeckett/meteor-toastr"
 });
 
