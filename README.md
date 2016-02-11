@@ -21,6 +21,9 @@ Use toastr to display notifications for info, success, warning and errors.
 
   // Display an error toast, with a title
   toastr.error(msg, title);
+  
+  // Display an info toast, with a title
+  toastr.info(msg, title);
 
   // Clears the current list of toasts
 ##  toastr.clear()
